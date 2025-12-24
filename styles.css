@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+#tituloPagina{
+    display:flex;
+    justify-content:center;
+}
+#contenedorInput{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+    align-items: center;;
+}
+#userInput{
+    border-radius: 40px;
+    border:none;
+    background-color: rgba(182, 143, 51, 0.277);
+    max-height: 30px;
+    padding:5px;
+}
+
+#anadirTarea{
+    border-radius:20px;
+    border:none;
+    background-color: rgb(163, 127, 54);
+    padding:5px 10px;
+    color:white;
+}
