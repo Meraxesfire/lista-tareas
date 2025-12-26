@@ -17,6 +17,7 @@ if(valorInput==""){
     return;
 }else{
     const li=document.createElement("li");
+    li.classList.add("tareaItem");
     li.textContent=valorInput;
     document.getElementById("list").appendChild(li)
     document.getElementById("userInput").value = "";
