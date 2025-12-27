@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    font-family: 'miFuente1';
 }
 #tituloPagina{
     display:flex;
@@ -45,4 +46,26 @@ body{
     justify-content: center;
     align-self: center;
     padding-left:0;
+}
+
+.tareaCheckbox{
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  background: #fff;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.tareaCheckbox:checked{
+  background: rgb(52,169,165);
+  border-color: rgb(52,169,165);
+}
+
+@font-face {
+    font-family: "miFuente1";
+    src: url(font/CreatoDisplay-Regular.otf);
 }
